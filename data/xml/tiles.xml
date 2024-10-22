@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<gfx-xform version="1">
+	<input file="../data/png/tiles.png" type="png" tile-width="8" tile-height="8" />
+
+	<output file="../data/inc/tiles.inc">
+
+		<tiles var-name="tile_data"/>
+
+		<maps pointers-size="8"> 
+			<map var-name="title_map" left="0" top="0" width="30" height="16" compression="rle"/>
+			<map var-name="moon_map" left="0" top="20" width="3" height="3" compression="rle"/>		
+		</maps>
+
+	</output>
+
+</gfx-xform>

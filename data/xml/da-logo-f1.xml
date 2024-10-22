@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<gfx-xform version="1">
+	<input file="../data/png/da-logo-f1.png" type="png" tile-width="8" tile-height="8" />
+
+	<output file="../data/inc/da-logo-f1.inc">
+
+		<tiles var-name="da_logo_data_f1"/>
+
+		<maps pointers-size="8"> 
+			<map var-name="da_logo_map_f1" left="0" top="0" width="10" height="2"/>		
+		</maps>
+
+	</output>
+
+</gfx-xform>
